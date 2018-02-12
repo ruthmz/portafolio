@@ -1,0 +1,64 @@
+/* Los estilos de tu proyecto
+
+/* Seteado */
+body{
+  font-family: 'Raleway', sans-serif;
+  background-color: ;
+  color: #6C757D;
+}
+
+
+@font-face {
+  font-family: 'Kirvy-Regular';
+  src:  url(../assets/fonts/Kirvy-Regular.woff2) format('woff2'),
+        url(../assets/fonts/Kirvy-Regular.woff) format('woff');
+        
+}
+
+.nav-style{
+  background-color: #af3039;
+}
+.link{
+  color: #fff;
+}
+/* .cover{
+  background-image: url(../assets/images/aurora-boreal.jpg);
+  background-size: cover ;
+  background-position: center center; 
+  height: 30vh;
+} */
+.info{
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding-bottom: 1em;
+}
+.title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  color: #fff;
+}
+.line{
+  width: 6em;
+  margin-top: 0;
+  height: 0.3em;
+  background: #af3039
+}
+.master figure {
+	background:#af3039;
+}
+.master figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.master figure:hover img {
+	opacity: .5;
+}
+.bold{
+  font-weight: bold;
+}
+.hover{
+  fill: #c65e6a
+  ;
+}
