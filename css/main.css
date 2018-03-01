@@ -3,7 +3,6 @@
 /* Seteado */
 body{
   font-family: 'Raleway', sans-serif;
-  background-color: #da002b;
 }
 
 
@@ -20,9 +19,9 @@ body{
 
 }
 .link{
-  color: #fff;
+  color: #333333;
   font-weight: bold;
-  text-shadow: 2px 2px 28px rgba(102, 102, 102, 1);
+  text-shadow: 2px 2px 28px rgb(253, 230, 180);
 
 }
 .intro{
@@ -30,20 +29,21 @@ body{
 }
 .info{
   font-size: 1.5em;
-  font-weight: 300;
-  /* line-height: 1.5em; */
+  /* font-weight: 300;
+  line-height: 1.5em;
   margin:0;
-  padding: 0em;
+  padding: 0em; */
   color: #fff;
   text-shadow: 2px 2px 18px rgba(102, 102, 102, 1);
 }
 .title{
-  font-size: 3em;
+  font-size: 2em;
   /* font-weight: bold; */
   margin-bottom: 0;
   padding-bottom: 0;
   color: #fff;
   font-family: 'Shrikhand', cursive;
+  line-height: 1em;
   text-shadow: 2px 2px 24px rgba(102, 102, 102, 1);
 }
 .subtitle{
@@ -71,44 +71,51 @@ body{
   color: #fff;
 }
 
-.nav li a{
-}
+
 .header{
   padding-top: 1.2em;
 }
-.about{
-  background-color: #f2efdf
-}
+
 .bio{
-  color: #333333;
+  color: #fff;
   font-size: 1.5em;
 }
-footer{
-  /* background-color: #f2efdf; */
-  background: #da002b;
-  padding: 1em;
+
+
+.area-0{
+  height: 58vh;
 }
-.area{
-  padding-top: 3em;
-  padding-bottom: 3em;
-}
-.contact-info{
+/* .contact-info{
   color: #fff;
+} */
+.full-back{
+  background-color: #af0d2e;
 }
+.full-light{
+  background-color: #f2efdf
+}
+
+
 @media only screen and (min-width: 768px) {
   .hero-background{
     background-position: 50% 90%;
-    height: 42vh;
+    height: 45vh;
   }
   .title{
-    font-size: 6em;
+    font-size: 4em;
   }
   .info{
-    font-size: 2.5em;
+    font-size: 1.8em;
     font-weight: 300;
   }
-  .intro{
-    padding-top:2em;
+  .bio{
+    padding-top:1.5em;
+  }
+  .area-2{
+    height: 70vh;
+  }
+  .area-3{
+    height: 30vh;
   }
 }
 
