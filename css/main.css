@@ -2,7 +2,8 @@
 
 /* Seteado */
 body{
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
 }
 
 
@@ -12,8 +13,19 @@ body{
         url(../assets/fonts/Kirvy-Regular.woff) format('woff');
         
 } */
+.net {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.net li {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 24px;
+}
 .container{
-  width: 90%;
+  width: 93%;
 }
 #navbar{
   position: absolute;
@@ -181,7 +193,13 @@ img .circle {
   text-align: center;
   margin-top: 1.4em;
 }
-
+.position{
+  text-align: center;
+ }
+.description{
+  letter-spacing: .012em;
+  font-weight: 600;
+}
 
 @media only screen and (min-width: 768px) {
   .hero-background{
@@ -222,9 +240,7 @@ img .circle {
   .left{
     float:left;
   }
-  .position{
-   position: relative;
-  }
+
  
 } 
 
