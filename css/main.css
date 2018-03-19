@@ -73,7 +73,7 @@ img .circle {
 }
 .strong{
   font-family: 'Museo Sans Cyrl 900';
-
+  color:#000;
 }
 .navbar-toggle .icon-bar {
   background-color: #fff;
@@ -255,22 +255,68 @@ footer{
 #projects a{
   color: #333333;
 }
+#projects a:visited{
+  color: #333333;
+}
+.net li a:visited{
+  color: #333333
+}
+.flex a:active, .flex a:hover{
+  text-decoration: none;
+}
+/* button animation */
+.action {
+	padding: 20px 40px;
+	position: relative;
+  font-weight: bold;
+  margin-top: 1.2em;
+}
+
+.action:after, .action:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 2px solid #000;
+  transition: transform .2s;
+}
+
+.action:after {
+  transform: translate(3px, 3px);
+}
+
+.action:before {
+  transform: translate(-3px, -3px);
+}
+
+.action:hover:after, .action:hover:before {
+  transform: translate(0);
+}
+
 
 @media only screen and (min-width: 768px) {
+  .container{
+    width: 85%;
+  }
   .hero-background{
     background-position: 50% 60%;
   }
   .title{
     font-size: 4em;
   }
-  /* .bio{
-    margin-top: 5em;
-  } */
+  .bio{
+    margin-top: 1em;
+  }
   .social{
     text-align: left;
   }
   .strong{
     font-size: 2.5em;
+  }
+  h4 a:active, h4 a:hover{
+    text-decoration: none;
   }
   .navbar-header{
     padding-right: 15px;
@@ -278,9 +324,9 @@ footer{
   }
   .flex{
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    align-self: center    
+    align-items: center;
+    justify-content: space-around;
+
   }
   .aside{
     font-family: 'Roboto Condensed', sans-serif;
@@ -295,13 +341,13 @@ footer{
   }
 
   .skills{
-    font-size: 5.6em;
+    font-size: 4.5em;
   }
   .sub{
     font-size: 2.5em;
   } 
   .align{
-    transform: translateY(140%);
+    transform: translateY(40%);
   }
 } 
 
