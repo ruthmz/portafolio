@@ -272,6 +272,9 @@ footer{
 #projects a:visited{
   color: #333333;
 }
+#projects li a:visited{
+  color: #333333;
+}
 .net li a:visited{
   color: #333333
 }
