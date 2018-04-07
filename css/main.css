@@ -326,7 +326,7 @@ footer{
     margin-top: 0;
   }
   .bio{
-    margin-top: 1em;
+    margin-top: 3em;
   }
   .social{
     text-align: left;
@@ -352,7 +352,7 @@ footer{
     font-weight: 300;
     font-size: 1.5em;
     width: 36%;
-    transform: translateY(150%);
+    transform: translateY(170%);
     padding: 1.5em; 
     /* margin-top:4em; */
     color: #fff;
